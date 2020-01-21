@@ -28,9 +28,9 @@
             <div>
                 <a href="#games" class="navItem">GAMES</a>
                 <br><br>
-                <a href="#contact" class="navItem">CONTACT</a>
-                <br><br>
                 <a href="#about" class="navItem">ABOUT</a>
+                <br><br>
+                <a href="#contact" class="navItem">CONTACT</a>
                 <br><br>
                 <a href="#updates" class="navItem">UPCOMING</a>
             </div>
@@ -38,26 +38,24 @@
 
         <!-- FEATURED CONTENT -->
         <!-- container for the image gallery -->
-        <main class="featContainer">
-            <div class="slides show">
-                <img src="thumbnails/feat1.jpg">
+        <div class="slide-container">
+            <span id="slider-image-1"></span>
+            <span id="slider-image-2"></span>
+            <span id="slider-image-3"></span>
+            <span id="slider-image-4"></span>
+            <div class="image-container">
+                <img src="thumbnails/feat1.jpg" class="slider-image">
+                <img src="thumbnails/feat2.jpg" class="slider-image">
+                <img src="thumbnails/feat3.jpg" class="slider-image">
+                <img src="thumbnails/feat4.jpg" class="slider-image">
             </div>
-            <div class="slides">
-                <img src="thumbnails/feat2.jpg">
+            <div class="button-container">
+                <a href="#slider-image-1" class="slider-button"></a>
+                <a href="#slider-image-2" class="slider-button"></a>
+                <a href="#slider-image-3" class="slider-button"></a>
+                <a href="#slider-image-4" class="slider-button"></a>
             </div>
-            <div class="slides">
-                <img src="thumbnails/feat3.jpg">
-            </div>
-            <div class="slides">
-                <img src="thumbnails/feat4.jpg">
-            </div>
-            <!-- arrow buttons -->
-            <section class="caption-container">
-                <a class="prev">&#10094;</a>
-                <p id="caption">Example Feature</p>
-                <a class="next">&#10095;</a>
-            </section>
-        </main>
+        </div>
 
         <!-- game selection -->
         <h2 id="allGames">| All Games</h2>
