@@ -37,7 +37,7 @@ body {
     background-color: rgb(250, 248, 242, 0.05);
     padding: 6px;
     float: left;
-    width: fit-content;
+    width: 20%;
 }
 
 a.navItem:link,
@@ -61,8 +61,8 @@ h4.navTitle {
 /* slide features */
 
 .slide-container {
-    height: 80vh;
-    width: 60%;
+    height: 300px;
+    width: 400px;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
@@ -70,8 +70,8 @@ h4.navTitle {
 }
 
 .image-container {
-    width: 3200px;
-    height: 600px;
+    width: 1600px;
+    height: 300px;
     position: relative;
     transition: left 2s;
     -webkit-transition: left 2s;
@@ -83,8 +83,8 @@ h4.navTitle {
     float: left;
     margin: 0px;
     padding: 0px;
-    width: 800px;
-    height: 600px;
+    width: 400px;
+    height: 300px;
 }
 
 .button-container {
@@ -99,23 +99,23 @@ h4.navTitle {
     width: 10px;
     border-radius: 5px;
     background-color: white;
+    margin-bottom: 20px;
 }
 
 #slider-image-1:target~.image-container {
-    top: px;
     left: 0px;
 }
 
 #slider-image-2:target~.image-container {
-    left: -800px;
+    left: -400px;
 }
 
 #slider-image-3:target~.image-container {
-    left: -1600px;
+    left: -800px;
 }
 
 #slider-image-4:target~.image-container {
-    left: -2400px;
+    left: -1200px;
 }
 
 
