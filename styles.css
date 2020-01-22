@@ -35,9 +35,9 @@ body {
     position: fixed;
     overflow: auto;
     background-color: rgb(250, 248, 242, 0.05);
-    padding: 10px;
+    padding: 6px;
     float: left;
-    width: 20%;
+    width: fit-content;
 }
 
 a.navItem:link,
@@ -61,8 +61,8 @@ h4.navTitle {
 /* slide features */
 
 .slide-container {
-    height: 600px;
-    width: 800px;
+    height: 80vh;
+    width: 60%;
     margin-left: auto;
     margin-right: auto;
     overflow: hidden;
@@ -102,6 +102,7 @@ h4.navTitle {
 }
 
 #slider-image-1:target~.image-container {
+    top: px;
     left: 0px;
 }
 
@@ -122,6 +123,7 @@ h4.navTitle {
 
 #allGames {
     margin-left: 20%;
+    margin-right: auto;
     padding-top: 20px;
     padding-bottom: 4px;
 }
@@ -131,8 +133,8 @@ h4.navTitle {
     padding: 10px;
     height: 80vh;
     width: 60%;
-    float: right;
-    margin-right: 20%;
+    margin-right: auto;
+    margin-left: 20%;
 }
 
 .gameBox {
