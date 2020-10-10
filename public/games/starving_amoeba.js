@@ -1,5 +1,6 @@
 // comments needed
 
+// draw canvas 
 var canvas = document.getElementById("canvas"),
     ctx = canvas.getContext("2d");
 
@@ -26,9 +27,10 @@ function update() {
     x += velX
     y += velY
 
-    ctx.clearRect(0, 0, 500, 500);
+    ctx.clearRect(0, 0, canvas.width, canvas.height); // clear game space
     ctx.beginPath();
-    ctx.arc(x, y, 5, 0, Math.PI * 2);
+    ctx.arc(x, y, 5, 0, Math.PI * 2); // draw amoeba
+    ctx.fillStyle = "green";
     ctx.fill();
 
     setTimeout(update, 10);
